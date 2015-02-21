@@ -1,3 +1,16 @@
+var constructors = [
+	undefined,
+	Int8Array,
+	Uint8Array, 
+	Uint8ClampedArray,
+	Int16Array,
+	Uint16Array,
+	Int32Array,
+	Uint32Array,
+	Float32Array,
+	Float64Array
+]
+
 module.exports = {
 	Int8Array : 1,
 	Uint8Array : 2, 
@@ -8,4 +21,7 @@ module.exports = {
 	Uint32Array : 7,
 	Float32Array : 8,
 	Float64Array : 9,
+	getConstructor: function(index) {
+		return constructors[index];
+	}
 }
