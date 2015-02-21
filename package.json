@@ -1,0 +1,30 @@
+{
+  "name": "enum-buffer-array-types",
+  "version": "1.0.0",
+  "description": "A small enum for javascript's typed array types.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Tomasz Dysinski",
+    "email": "oz@bunnybones.com",
+    "url": "https://github.com/bunnybones1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "enum",
+    "typed",
+    "arrays"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bunnybones1/enum-buffer-array-types.git"
+  },
+  "homepage": "https://github.com/bunnybones1/enum-buffer-array-types",
+  "bugs": {
+    "url": "https://github.com/bunnybones1/enum-buffer-array-types/issues"
+  }
+}
