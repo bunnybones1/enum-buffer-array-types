@@ -26,7 +26,7 @@ module.exports = {
 	},
 	discoverType: function(arr) {
 		for (var i = constructors.length - 1; i >= 0; i--) {
-			if(arr instanceof constructors[i]) return constructors[i];
+			if(arr instanceof constructors[i]) return i;
 		};
 	}
 }
