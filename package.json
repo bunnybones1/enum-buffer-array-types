@@ -1,6 +1,6 @@
 {
   "name": "enum-buffer-array-types",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "A small enum for javascript's typed array types.",
   "main": "index.js",
   "license": "MIT",
