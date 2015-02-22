@@ -23,5 +23,10 @@ module.exports = {
 	Float64Array : 9,
 	getConstructor: function(index) {
 		return constructors[index];
+	},
+	discoverType: function(arr) {
+		for (var i = constructors.length - 1; i >= 0; i--) {
+			if(arr instanceof constructors[i]) return constructors[i];
+		};
 	}
 }
