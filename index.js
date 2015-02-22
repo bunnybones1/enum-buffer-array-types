@@ -1,5 +1,5 @@
 var constructors = [
-	undefined,
+	Array,
 	Int8Array,
 	Uint8Array, 
 	Uint8ClampedArray,
@@ -12,6 +12,7 @@ var constructors = [
 ]
 
 module.exports = {
+	Array : 0,
 	Int8Array : 1,
 	Uint8Array : 2, 
 	Uint8ClampedArray : 3,
